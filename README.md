@@ -1,4 +1,4 @@
-![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/ea2c9f37-aed6-42a2-911e-e032c05da533)# ZEDBOARD_Hardware_setup
+# ZEDBOARD_Hardware_setup
 
 
 ## Introduction
@@ -47,7 +47,7 @@ Use the search bar in order to download the required packages.
 
 
 
-
+<details>
 <details>
 <summary>STEP 2: How to install vivado 2020.2 in Linux </summary>
 <br>
