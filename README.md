@@ -46,8 +46,10 @@ Ensure all the MATLAB packages are installed before proceeding with this example
 Use the search bar in order to download the required packages.
 
 
-
+</details>
 <details>
-<details>
-<summary>STEP 2: How to install vivado 2020.2 in Linux </summary>
+<summary>STEP 1: Prerequisites </summary>
 <br>
+# Getting Started With OpenLane:
+
+## Table of Contents
