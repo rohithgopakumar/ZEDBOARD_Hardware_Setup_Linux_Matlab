@@ -53,3 +53,43 @@ Use the search bar in order to download the required packages.
 
 
 1) Go to https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/2fa462a8-2f94-4e24-9026-3b15f29bd265)
+
+click on the 2020.2 version and download the following file
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/51fd1a65-acb4-4ca3-86df-8818e90e1e2e)
+
+let the download finish [Note: this is a huge download ensure you have the required storage]
+
+
+2)Once the download has finished, use the following commands in the linux terminal
+
+
+i) This is to update the dependancies before starting
+```bash
+    sudo apt update
+    sudo apt upgrade 
+```
+
+ii) This is to locate where the file has downloaded 
+```bash
+    cd Downloads/
+    ls
+```
+
+iii)Locate the file named "Xilinx_Unified_2020.2_1118_1232.tar.gz" [Note: File name can be different but check for the keywords]
+
+```bash
+  tar -xvzf Xilinx_Unified_2020.2_1118_1232.tar.gz
+```
+If you are unable to do this command, find where the download has occured and extract manually
+
+iv)After extraction, do this command
+
+```bash
+cd Xilinx_Unified_2020.2_1118_1232/
+sudo ./xsetup
+```
+v)The setup of the rest of Vivado can be followed from this video so kindly do refer it.
+
+https://youtu.be/1uJzjvgTQUk?si=_XHClMbm9bh_5uVM
