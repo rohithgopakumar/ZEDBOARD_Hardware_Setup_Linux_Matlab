@@ -110,12 +110,12 @@ By the end of the video you must have :
 <details>
 <summary>STEP 3: Hardware connections to the board </summary>
 <br>
-This image is a rough idea of how the connections have to look 
-where,
-1--> Ethernet port
-2--> Power Supply
-3--> USB-UART connection
-4--> SD card
+This image is a rough idea of how the connections have to look for a successfull connection.
+where:
+- 1--> Ethernet port
+- 2--> Power Supply
+- 3--> USB-UART connection
+- 4--> SD card
 
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/3808f0fd-be29-4bbb-ac35-dc19a63be8e6)
 
