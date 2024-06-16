@@ -48,8 +48,8 @@ Use the search bar in order to download the required packages.
 
 </details>
 <details>
-<summary>STEP 1: Prerequisites </summary>
+<summary>STEP 2: Vivado 2020.2 install for Linux </summary>
 <br>
-# Getting Started With OpenLane:
 
-## Table of Contents
+
+1) Go to https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html
