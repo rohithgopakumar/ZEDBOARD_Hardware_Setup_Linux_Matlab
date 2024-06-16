@@ -111,8 +111,10 @@ By the end of the video you must have :
 <summary>STEP 3: Hardware connections to the board </summary>
 <br>
 This image is a rough idea of how the connections have to look for a successfull connection.
-where:
-- 1--> Ethernet port
+
+ 
+    
+- 1 Ethernet port
 - 2--> Power Supply
 - 3--> USB-UART connection
 - 4--> SD card
