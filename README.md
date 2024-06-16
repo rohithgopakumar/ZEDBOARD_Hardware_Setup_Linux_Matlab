@@ -1,4 +1,4 @@
-# ZEDBOARD_Hardware_setup
+# ZEDBOARD_setup
 
 
 ## Introduction
