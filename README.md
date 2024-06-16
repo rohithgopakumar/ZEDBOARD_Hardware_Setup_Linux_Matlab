@@ -112,9 +112,9 @@ By the end of the video you must have :
 <br>
 This image is a rough idea of how the connections have to look for a successfull connection.
 
- 
+Where 
     
-- 1 Ethernet port
+- 1-->Ethernet port
 - 2--> Power Supply
 - 3--> USB-UART connection
 - 4--> SD card
