@@ -1,4 +1,4 @@
-# ZEDBOARD_Hardware_setup
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/ea2c9f37-aed6-42a2-911e-e032c05da533)# ZEDBOARD_Hardware_setup
 
 
 ## Introduction
@@ -14,7 +14,7 @@ This is the tutorial to setup the Zedboard in a linux system using Matlab Simuli
 
 </details>
 <details>
-<summary>PART 1: Prerequisites </summary>
+<summary>STEP 1: Prerequisites </summary>
 <br>
 
 
@@ -44,3 +44,10 @@ Ensure all the MATLAB packages are installed before proceeding with this example
 
 
 Use the search bar in order to download the required packages.
+
+
+
+
+<details>
+<summary>STEP 2: How to install vivado 2020.2 in Linux </summary>
+<br>
