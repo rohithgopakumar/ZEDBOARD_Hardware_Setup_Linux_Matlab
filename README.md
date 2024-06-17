@@ -122,5 +122,24 @@ Where
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/3808f0fd-be29-4bbb-ac35-dc19a63be8e6)
 
 
+## STEP 1: Setting up the ip configuration to connect to the board
 
-  
+1)Go to network settings in your settings option:
+  ![ntw1](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/ba5850ae-961f-4d39-9406-9a94b1b7e47d)
+
+2)Using the "+" on the top right create a new profile and add the following details
+![ntw2](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/afb9cffe-3958-4c95-b83e-a97dec75a639)
+This is done to ensure that we can communicate to the zedboard without any problems
+![ntw3](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/1847e40e-d417-40f5-9d77-762c82a75b6f)
+
+3)Confirm if we have connected and are able to communicate to the board 
+
+Go to the terminal and type the following
+
+```bash
+ping 192.168.1.101
+
+```
+![b4a14735-2def-4497-b896-21b281577e10](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/c2aee97e-cec5-44e0-88bd-a8bf21df6c72)
+
+A successful connection shows the packets being recieved as shown above. Congrats you have successfuully connected the zedboard through ethernet.
