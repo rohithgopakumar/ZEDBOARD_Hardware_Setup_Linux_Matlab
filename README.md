@@ -161,7 +161,7 @@ A successful connection shows the packets being recieved as shown above. Congrat
 
 1)Open MATLAB and find the support package "HDL Coder Support Package for Xilinx Zynq Platform (my version-22.2.0)"
 
-Here you will see a gear icon to the right hand side, Click on that 
+- Here you will see a gear icon to the right hand side, Click on that 
 
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/37ac01eb-89c2-4ef7-8f3e-efbe162e9bd7)
 
@@ -169,3 +169,28 @@ Here you will see a gear icon to the right hand side, Click on that
 
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/d32c001a-b0b9-40af-92af-3b98995b4b37)
 - We will get a similar prompt and from the drop-down menu choose "Zedboard".
+
+
+
+
+
+2)Configure Network Card on Host Computer
+
+- We will get this and do not worry if it's not the same as above picture. As we have already established connection to the zedboard manually this step can be procedded by entering "next". 
+
+- Do note that this might show a warning but it can be ignored and we can move to the next step.
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/6738143e-a563-4b55-84d7-f7dc15386bee)
+
+
+
+
+
+
+
+
+3)
+
+
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/d9d8392b-9efb-4ce7-8cf7-a960d6ef150b)
