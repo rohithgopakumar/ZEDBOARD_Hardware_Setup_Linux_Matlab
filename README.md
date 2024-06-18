@@ -230,7 +230,7 @@ Congradulation You have completed the setup for HDL Coder.
 ## These Are The Steps To Be Followed To Establish Connection To The Zedboard From MATLAB
 
 
-1) Find the toolpath where you have downloaded Xilinx vivado 2020.2 (this basically means which folder/directory the tool is downloaded in). If you are new to linux do watch a video on how to locate the path of a file.
+## 1) Find the toolpath where you have downloaded Xilinx vivado 2020.2 (this basically means which folder/directory the tool is downloaded in). If you are new to linux do watch a video on how to locate the path of a file.
 
 ```bash
 cd /tools/Xilinx/Vivado/2020.2/bin/vivado
@@ -242,8 +242,6 @@ Now go to MATLAB and type this command
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/45d9701b-0246-494e-9e78-8baf74ae25dd)
 
 This is to setup the toolpath.
-
-
 
 2) After you get the successful output from the previous step, Type these two commands
 
