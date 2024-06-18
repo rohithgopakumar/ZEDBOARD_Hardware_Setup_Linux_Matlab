@@ -243,12 +243,38 @@ Now go to MATLAB and type this command
 
 This is to setup the toolpath.
 
-2) After you get the successful output from the previous step, Type these two commands
+## 2) After you get the successful output from the previous step, Type these two commands
 
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/1aa4f60b-f240-4111-9990-a5c52680406a)
 
 
 You might get these Warnings but these are normal and due to the new version of matlab not supporting these commands. You can ignore them without any issues
 
+## 3) Setup the compiler  
+
+Use this command to setup the compiler (it is done by default unless there is no compiler present)
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/cf47fd14-df0f-49b6-9ddd-07b0b3ed72ea)
 
 
+
+This is the end of checking connections to the zedboard and if all the steps are being followed then this should have no problem and if successful till ths step we can proceed to the next example step. 
+
+
+
+</details>
+<details>
+<summary>STEP 6: HDL Blinking Example Using HDL Coder </summary>
+<br>
+
+
+## 1) Type the following into matlab
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/800c7afc-369f-49b6-b473-835b5a99a2f8)
+
+
+This will open this Window 
+
+![hdl5](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/4f68612d-d152-4daf-ae51-75e5c9d848c9)
+
+
+Click okay if any warnings pop up as they can be ignored.
