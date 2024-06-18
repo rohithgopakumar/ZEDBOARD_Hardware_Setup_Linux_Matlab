@@ -26,6 +26,7 @@ Before using this code example, make sure you have the following prerequisites:
 - Simulink
 - HDL Coder
 - Embedded Coder
+- HDL Coder Support Package for Xilinx Zynq Platform (currently used version-22.2.0)
 - Fixed-Point Designer
 - Signal Processing Toolbox
 - MATLAB Coder
@@ -122,7 +123,7 @@ Where
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/3808f0fd-be29-4bbb-ac35-dc19a63be8e6)
 
 
-## STEP 1: Setting up the ip configuration to connect to the board
+## Setting Up The IP Configuration To Connect To The Board
 
 1)Go to network settings in your settings option:
   ![ntw1](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/ba5850ae-961f-4d39-9406-9a94b1b7e47d)
@@ -143,3 +144,28 @@ ping 192.168.1.101
 ![b4a14735-2def-4497-b896-21b281577e10](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/c2aee97e-cec5-44e0-88bd-a8bf21df6c72)
 
 A successful connection shows the packets being recieved as shown above. Congrats you have successfuully connected the zedboard through ethernet.
+
+
+
+</details>
+<details>
+<summary>STEP 4: Running HDL Coder in Matlab To Establish The Connections </summary>
+<br>
+
+
+## NOTE : Please Do ensure that all the Prerequisites have been installed properly including the support packages in matlab
+
+
+## Using HDL Coder To Setup The Board
+
+
+1)Open MATLAB and find the support package "HDL Coder Support Package for Xilinx Zynq Platform (my version-22.2.0)"
+
+Here you will see a gear icon to the right hand side, Click on that 
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/37ac01eb-89c2-4ef7-8f3e-efbe162e9bd7)
+
+
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/d32c001a-b0b9-40af-92af-3b98995b4b37)
+- We will get a similar prompt and from the drop-down menu choose "Zedboard".
