@@ -189,8 +189,67 @@ A successful connection shows the packets being recieved as shown above. Congrat
 
 
 
-3)
+3)Selecting the drive
 
-
+- Insert the SD card from the zedboard into an SD-Card reader and select refresh.
+- You will be able to see the card appear in the drop-down and then write the firmware onto the card. Proceed if it asks or provides a warning message of data being overwritten.
 
 ![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/d9d8392b-9efb-4ce7-8cf7-a960d6ef150b)
+
+
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/436c9980-e4eb-4c0b-a6e4-23a7d3839376)
+
+
+- After this step finishes, we can remove the card from the SD-Card reader and insert it back into the zedboard.
+
+
+
+
+4)Verification/checking the connections
+
+
+-After we insert the SD-Card back into the board, we can move to the final step. We will get a prompt to "Test Connection". Click on it and wait till we get the "Test successful" Message
+
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/85c5355f-d719-49d1-9cf6-20a44c4c6827)
+
+Check if the highlighted message is shown and we get the green tick for "test connection"
+
+
+Congradulation You have completed the setup for HDL Coder.
+
+
+
+
+</details>
+<details>
+<summary>STEP 5: Checking the Zedboard connection from Matlab </summary>
+<br>
+
+
+
+1)Find the toolpath where you have downloaded Xilinx vivado 2020.2 (this basically means which folder/directory the tool is downloaded in). If you are new to linux do watch a video on how to locate the path of a file.
+
+```bash
+cd /tools/Xilinx/Vivado/2020.2/bin/vivado
+```
+
+For example if i follow the above command i can locate my vivado installation. It might not be the same for you so pay attention where the tool is downloaded.
+
+Now go to MATLAB and type this command 
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/45d9701b-0246-494e-9e78-8baf74ae25dd)
+
+This is to setup the toolpath.
+
+
+
+2)After you get the successful output from the previous step, Type these two commands
+
+![image](https://github.com/rohithgopakumar/ZEDBOARD_Hardware_Setup_Linux_Matlab/assets/131611312/1aa4f60b-f240-4111-9990-a5c52680406a)
+
+
+You might get these Warnings but these are normal and due to the new version of matlab not supporting these commands. You can ignore them without any issues
+
+
+
